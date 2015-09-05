@@ -1,0 +1,11 @@
+target 'SimpleDribbble' do
+    pod 'AFNetworking'
+    pod 'JSONModel'
+    pod 'SDWebImage', '~>3.7'
+    pod 'UIActivityIndicator-for-SDWebImage'
+    pod 'SVPullToRefresh'
+end
+
+target 'SimpleDribbbleTests' do
+
+end

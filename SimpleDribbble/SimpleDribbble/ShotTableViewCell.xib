@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="229" id="vA4-kB-pkm" customClass="ShotTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vA4-kB-pkm" id="dVG-4L-bFd">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EhQ-xW-RPg">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="225"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="225" id="6nm-GD-ieL"/>
+                            <constraint firstAttribute="width" secondItem="EhQ-xW-RPg" secondAttribute="height" multiplier="4:3" id="LFp-Sc-WsL"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4W4-Oe-irz">
+                        <rect key="frame" x="0.0" y="189" width="300" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" ambiguous="YES" misplaced="YES" text="Title" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hn9-uw-Bgk">
+                                <rect key="frame" x="8" y="7" width="164" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="Views" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3S-Ab-2kq">
+                                <rect key="frame" x="247" y="7" width="45" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="0G5-R0-OEQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" image="views_icon" translatesAutoresizingMaskIntoConstraints="NO" id="HGz-Df-aqI" userLabel="View Icon">
+                                <rect key="frame" x="207" y="5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Egn-Tr-mGX"/>
+                                    <constraint firstAttribute="width" constant="25" id="mVe-wf-FO3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="v3S-Ab-2kq" secondAttribute="trailing" constant="5" id="Sw6-Iw-rhW"/>
+                            <constraint firstItem="v3S-Ab-2kq" firstAttribute="leading" secondItem="HGz-Df-aqI" secondAttribute="trailing" constant="10" id="XY4-Xo-4Rv"/>
+                            <constraint firstItem="v3S-Ab-2kq" firstAttribute="centerY" secondItem="4W4-Oe-irz" secondAttribute="centerY" id="eWx-Lu-TWx"/>
+                            <constraint firstItem="HGz-Df-aqI" firstAttribute="centerY" secondItem="4W4-Oe-irz" secondAttribute="centerY" id="eft-bG-cCH"/>
+                            <constraint firstItem="Hn9-uw-Bgk" firstAttribute="leading" secondItem="4W4-Oe-irz" secondAttribute="leading" constant="10" id="fdO-0c-pXh"/>
+                            <constraint firstAttribute="width" constant="300" id="jZw-me-BVY"/>
+                            <constraint firstItem="Hn9-uw-Bgk" firstAttribute="centerY" secondItem="4W4-Oe-irz" secondAttribute="centerY" id="odd-9S-xDL"/>
+                            <constraint firstItem="HGz-Df-aqI" firstAttribute="leading" secondItem="Hn9-uw-Bgk" secondAttribute="trailing" constant="5" id="pcj-NP-koG"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="4W4-Oe-irz" secondAttribute="bottom" constant="-8" id="5qX-Q6-QTU"/>
+                    <constraint firstItem="EhQ-xW-RPg" firstAttribute="top" secondItem="dVG-4L-bFd" secondAttribute="topMargin" constant="7" id="NEz-vU-qSm"/>
+                    <constraint firstItem="EhQ-xW-RPg" firstAttribute="centerX" secondItem="dVG-4L-bFd" secondAttribute="centerX" id="h2q-3V-lov"/>
+                    <constraint firstItem="4W4-Oe-irz" firstAttribute="centerX" secondItem="dVG-4L-bFd" secondAttribute="centerX" id="ptW-Id-V6L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="image" destination="EhQ-xW-RPg" id="GH7-0C-cvf"/>
+                <outlet property="title" destination="Hn9-uw-Bgk" id="TAa-bD-BdE"/>
+                <outlet property="viewsCount" destination="v3S-Ab-2kq" id="buw-8K-xye"/>
+            </connections>
+            <point key="canvasLocation" x="552" y="277.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="views_icon" width="25" height="25"/>
+    </resources>
+</document>

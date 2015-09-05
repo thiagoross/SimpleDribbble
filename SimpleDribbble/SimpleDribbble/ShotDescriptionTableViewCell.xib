@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="RG9-Ie-Fd5" customClass="ShotDescriptionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="280"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RG9-Ie-Fd5" id="FCQ-CG-VKc">
+                <rect key="frame" x="0.0" y="0.0" width="300" height="279"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEF-Ox-RPW">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="280"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="oEF-Ox-RPW" secondAttribute="height" multiplier="320:299" id="U71-PL-lZU"/>
+                            <constraint firstAttribute="width" constant="300" id="fde-2a-uZs"/>
+                        </constraints>
+                    </webView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oEF-Ox-RPW" firstAttribute="centerX" secondItem="FCQ-CG-VKc" secondAttribute="centerX" id="4SV-Q2-AqV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="oEF-Ox-RPW" secondAttribute="trailing" constant="10" id="ZSM-ig-n1L"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="oEF-Ox-RPW" secondAttribute="bottom" constant="10" id="gUp-2L-SNf"/>
+                    <constraint firstItem="oEF-Ox-RPW" firstAttribute="leading" secondItem="FCQ-CG-VKc" secondAttribute="leadingMargin" constant="10" id="gpU-Ve-MAw"/>
+                    <constraint firstItem="oEF-Ox-RPW" firstAttribute="top" secondItem="FCQ-CG-VKc" secondAttribute="top" id="xhQ-bE-nGi"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ZSM-ig-n1L"/>
+                        <exclude reference="gUp-2L-SNf"/>
+                        <exclude reference="gpU-Ve-MAw"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="shotDescription" destination="oEF-Ox-RPW" id="lEA-VJ-Txl"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="232"/>
+        </tableViewCell>
+    </objects>
+</document>

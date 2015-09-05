@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ReleaseToRefreshView">
+            <rect key="frame" x="0.0" y="0.0" width="259" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eOC-Ep-wXu">
+                    <rect key="frame" x="19" y="5" width="220" height="70"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="tzz-BW-DBb">
+                            <rect key="frame" x="0.0" y="12" width="50" height="50"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Release to refresh..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agh-fA-qNp">
+                            <rect key="frame" x="60" y="26" width="161" height="21"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" red="0.86274509799999999" green="0.070588235289999995" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="220" id="EOx-MI-mcL"/>
+                        <constraint firstAttribute="height" constant="70" id="xrE-bl-S6E"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eOC-Ep-wXu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OL0-HS-9yM"/>
+                <constraint firstItem="eOC-Ep-wXu" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="f5U-Ht-1G7"/>
+                <constraint firstItem="eOC-Ep-wXu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="13" id="qUm-Os-hha"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="qUm-Os-hha"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="arrow" destination="tzz-BW-DBb" id="gVt-lV-lyV"/>
+            </connections>
+            <point key="canvasLocation" x="339.5" y="271"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_down" width="75" height="75"/>
+    </resources>
+</document>
