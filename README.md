@@ -23,6 +23,14 @@ SimpleDribbble is a simple app to see the most popular shots from Dribbble.
 
 More details [here](http://www.rossener.com/challenge-accepted-making-a-dribbble-app-from-scratch/).
 
+## TO DO's
+
+* Unit tests
+* Functional tests
+* Share shot on Facebook
+* Share shot on Twitter
+* Fixing warnings
+
 ## Author
 
 [Thiago Rossener](http://www.rossener.com)
