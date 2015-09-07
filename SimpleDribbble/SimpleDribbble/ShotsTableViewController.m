@@ -204,10 +204,18 @@
     Shot *shot = [[self.shotDAO shots] objectAtIndex:indexPath.row];
     cell.title.text = shot.title;
     cell.viewsCount.text = [shot.viewsCount stringValue];
-    [cell.image sd_setImageWithURL:[NSURL URLWithString:shot.image400Url]
+    
+    if (shot.image400Url != nil) {
+        [cell.image sd_setImageWithURL:[NSURL URLWithString:shot.image400Url]
                   placeholderImage:[UIImage imageNamed:@"placeholder.png"]
                 completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL){ [loading removeFromSuperview];
                 }];
+    } else {
+        [cell.image sd_setImageWithURL:[NSURL URLWithString:shot.imageUrl]
+                      placeholderImage:[UIImage imageNamed:@"placeholder.png"]
+                             completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL){ [loading removeFromSuperview];
+                             }];
+    }
     
     // Add loading in UIImageView only if it is not cached
     [[SDImageCache sharedImageCache] queryDiskCacheForKey:shot.image400Url done:^(UIImage *image, SDImageCacheType cacheType) {

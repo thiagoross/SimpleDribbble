@@ -79,7 +79,12 @@
     
         cell.title.text = self.shot.title;
         cell.viewsCount.text = [self.shot.viewsCount stringValue];
-        [cell.image setImageWithURL:[NSURL URLWithString:self.shot.image400Url] placeholderImage:[UIImage imageNamed:@"placeholder_details.png"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        
+        if (self.shot.image400Url != nil) {
+            [cell.image setImageWithURL:[NSURL URLWithString:self.shot.image400Url] placeholderImage:[UIImage imageNamed:@"placeholder_details.png"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        } else {
+            [cell.image setImageWithURL:[NSURL URLWithString:self.shot.imageUrl] placeholderImage:[UIImage imageNamed:@"placeholder_details.png"] usingActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+        }
     
         return cell;
     } else if (indexPath.row == 1) {
