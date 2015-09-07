@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dribbble_large" translatesAutoresizingMaskIntoConstraints="NO" id="DZe-Og-pSo">
+                    <rect key="frame" x="50" y="138" width="300" height="123"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="123" id="PCU-KV-rzf"/>
+                        <constraint firstAttribute="width" constant="300" id="X3c-4d-fCF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Challenge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAV-d3-4uP">
+                    <rect key="frame" x="137" y="261" width="126" height="26"/>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.21176470588235294" green="0.21176470588235294" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="mAV-d3-4uP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9NE-br-Kds"/>
+                <constraint firstItem="mAV-d3-4uP" firstAttribute="top" secondItem="DZe-Og-pSo" secondAttribute="bottom" id="EpI-Jm-ndU"/>
+                <constraint firstItem="DZe-Og-pSo" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Iyq-Ba-DBY"/>
+                <constraint firstItem="DZe-Og-pSo" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="VxQ-NX-EBi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dribbble_large" width="300" height="123"/>
+    </resources>
+</document>

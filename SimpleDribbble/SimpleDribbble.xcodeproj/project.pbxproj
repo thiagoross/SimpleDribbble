@@ -12,9 +12,6 @@
 		AF105E3B1B9B5DBA00D00AE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E3A1B9B5DBA00D00AE1 /* AppDelegate.m */; };
 		AF105E411B9B5DBA00D00AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF105E3F1B9B5DBA00D00AE1 /* Main.storyboard */; };
 		AF105E431B9B5DBA00D00AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF105E421B9B5DBA00D00AE1 /* Assets.xcassets */; };
-		AF105E461B9B5DBA00D00AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF105E441B9B5DBA00D00AE1 /* LaunchScreen.storyboard */; };
-		AF105E511B9B5DBA00D00AE1 /* SimpleDribbbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E501B9B5DBA00D00AE1 /* SimpleDribbbleTests.m */; };
-		AF105E5C1B9B5DBA00D00AE1 /* SimpleDribbbleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E5B1B9B5DBA00D00AE1 /* SimpleDribbbleUITests.m */; };
 		AF105E8C1B9B614400D00AE1 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E6D1B9B614400D00AE1 /* Constants.m */; };
 		AF105E8D1B9B614400D00AE1 /* NoMoreUpdatesView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E6F1B9B614400D00AE1 /* NoMoreUpdatesView.m */; };
 		AF105E8E1B9B614400D00AE1 /* NoMoreUpdatesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF105E701B9B614400D00AE1 /* NoMoreUpdatesView.xib */; };
@@ -35,6 +32,7 @@
 		AF105E9D1B9B614400D00AE1 /* ShotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105E8A1B9B614400D00AE1 /* ShotTableViewCell.m */; };
 		AF105E9E1B9B614400D00AE1 /* ShotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF105E8B1B9B614400D00AE1 /* ShotTableViewCell.xib */; };
 		AF105EA51B9B61D800D00AE1 /* AnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AF105EA41B9B61D800D00AE1 /* AnimationUtils.m */; };
+		AFA7599E1B9D38AE00D6E44B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA7599D1B9D38AE00D6E44B /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,14 +61,9 @@
 		AF105E3A1B9B5DBA00D00AE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF105E401B9B5DBA00D00AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF105E421B9B5DBA00D00AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF105E451B9B5DBA00D00AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF105E471B9B5DBA00D00AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF105E4C1B9B5DBA00D00AE1 /* SimpleDribbbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDribbbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF105E501B9B5DBA00D00AE1 /* SimpleDribbbleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDribbbleTests.m; sourceTree = "<group>"; };
-		AF105E521B9B5DBA00D00AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF105E571B9B5DBA00D00AE1 /* SimpleDribbbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDribbbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF105E5B1B9B5DBA00D00AE1 /* SimpleDribbbleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDribbbleUITests.m; sourceTree = "<group>"; };
-		AF105E5D1B9B5DBA00D00AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF105E6B1B9B614400D00AE1 /* AnimationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationUtils.h; sourceTree = "<group>"; };
 		AF105E6C1B9B614400D00AE1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		AF105E6D1B9B614400D00AE1 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
@@ -105,6 +98,7 @@
 		AF105E8A1B9B614400D00AE1 /* ShotTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotTableViewCell.m; sourceTree = "<group>"; };
 		AF105E8B1B9B614400D00AE1 /* ShotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotTableViewCell.xib; sourceTree = "<group>"; };
 		AF105EA41B9B61D800D00AE1 /* AnimationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationUtils.m; sourceTree = "<group>"; };
+		AFA7599D1B9D38AE00D6E44B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		C669180ED3439B4412C966E9 /* libPods-SimpleDribbble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleDribbble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				AF105E351B9B5DBA00D00AE1 /* SimpleDribbble */,
-				AF105E4F1B9B5DBA00D00AE1 /* SimpleDribbbleTests */,
-				AF105E5A1B9B5DBA00D00AE1 /* SimpleDribbbleUITests */,
 				AF105E341B9B5DBA00D00AE1 /* Products */,
 				5BD187DFAF8B731393E62EF5 /* Pods */,
 				048E60F8DB6D80B1DD12E583 /* Frameworks */,
@@ -197,24 +189,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AF105E4F1B9B5DBA00D00AE1 /* SimpleDribbbleTests */ = {
-			isa = PBXGroup;
-			children = (
-				AF105E501B9B5DBA00D00AE1 /* SimpleDribbbleTests.m */,
-				AF105E521B9B5DBA00D00AE1 /* Info.plist */,
-			);
-			path = SimpleDribbbleTests;
-			sourceTree = "<group>";
-		};
-		AF105E5A1B9B5DBA00D00AE1 /* SimpleDribbbleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AF105E5B1B9B5DBA00D00AE1 /* SimpleDribbbleUITests.m */,
-				AF105E5D1B9B5DBA00D00AE1 /* Info.plist */,
-			);
-			path = SimpleDribbbleUITests;
-			sourceTree = "<group>";
-		};
 		AF105E691B9B5EC900D00AE1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,7 +199,7 @@
 				AF105EAA1B9B620C00D00AE1 /* ReleaseToRefreshView */,
 				AF105EA91B9B620100D00AE1 /* PullToRefreshView */,
 				AF105E3F1B9B5DBA00D00AE1 /* Main.storyboard */,
-				AF105E441B9B5DBA00D00AE1 /* LaunchScreen.storyboard */,
+				AFA7599D1B9D38AE00D6E44B /* LaunchScreen.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -496,7 +470,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF105E461B9B5DBA00D00AE1 /* LaunchScreen.storyboard in Resources */,
+				AFA7599E1B9D38AE00D6E44B /* LaunchScreen.xib in Resources */,
 				AF105E431B9B5DBA00D00AE1 /* Assets.xcassets in Resources */,
 				AF105E9A1B9B614400D00AE1 /* ShotPlayerTableViewCell.xib in Resources */,
 				AF105E411B9B5DBA00D00AE1 /* Main.storyboard in Resources */,
@@ -585,7 +559,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF105E511B9B5DBA00D00AE1 /* SimpleDribbbleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,7 +566,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF105E5C1B9B5DBA00D00AE1 /* SimpleDribbbleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,14 +591,6 @@
 				AF105E401B9B5DBA00D00AE1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF105E441B9B5DBA00D00AE1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF105E451B9B5DBA00D00AE1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -668,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -706,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
