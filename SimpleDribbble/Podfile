@@ -5,7 +5,3 @@ target 'SimpleDribbble' do
     pod 'UIActivityIndicator-for-SDWebImage'
     pod 'SVPullToRefresh'
 end
-
-target 'SimpleDribbbleTests' do
-
-end

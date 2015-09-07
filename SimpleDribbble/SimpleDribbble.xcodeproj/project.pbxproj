@@ -35,23 +35,6 @@
 		AFA7599E1B9D38AE00D6E44B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA7599D1B9D38AE00D6E44B /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AF105E4D1B9B5DBA00D00AE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF105E2B1B9B5DBA00D00AE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF105E321B9B5DBA00D00AE1;
-			remoteInfo = SimpleDribbble;
-		};
-		AF105E581B9B5DBA00D00AE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF105E2B1B9B5DBA00D00AE1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF105E321B9B5DBA00D00AE1;
-			remoteInfo = SimpleDribbble;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		34EE933C8BBDBBABE97A237A /* Pods-SimpleDribbble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDribbble.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDribbble/Pods-SimpleDribbble.release.xcconfig"; sourceTree = "<group>"; };
 		4D31E62A0372DE3954B062B3 /* Pods-SimpleDribbble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleDribbble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleDribbble/Pods-SimpleDribbble.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,8 +45,6 @@
 		AF105E401B9B5DBA00D00AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF105E421B9B5DBA00D00AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF105E471B9B5DBA00D00AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF105E4C1B9B5DBA00D00AE1 /* SimpleDribbbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDribbbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF105E571B9B5DBA00D00AE1 /* SimpleDribbbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDribbbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF105E6B1B9B614400D00AE1 /* AnimationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationUtils.h; sourceTree = "<group>"; };
 		AF105E6C1B9B614400D00AE1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		AF105E6D1B9B614400D00AE1 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
@@ -111,20 +92,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF105E491B9B5DBA00D00AE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF105E541B9B5DBA00D00AE1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -159,8 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				AF105E331B9B5DBA00D00AE1 /* SimpleDribbble.app */,
-				AF105E4C1B9B5DBA00D00AE1 /* SimpleDribbbleTests.xctest */,
-				AF105E571B9B5DBA00D00AE1 /* SimpleDribbbleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,42 +352,6 @@
 			productReference = AF105E331B9B5DBA00D00AE1 /* SimpleDribbble.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AF105E4B1B9B5DBA00D00AE1 /* SimpleDribbbleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF105E631B9B5DBA00D00AE1 /* Build configuration list for PBXNativeTarget "SimpleDribbbleTests" */;
-			buildPhases = (
-				AF105E481B9B5DBA00D00AE1 /* Sources */,
-				AF105E491B9B5DBA00D00AE1 /* Frameworks */,
-				AF105E4A1B9B5DBA00D00AE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF105E4E1B9B5DBA00D00AE1 /* PBXTargetDependency */,
-			);
-			name = SimpleDribbbleTests;
-			productName = SimpleDribbbleTests;
-			productReference = AF105E4C1B9B5DBA00D00AE1 /* SimpleDribbbleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AF105E561B9B5DBA00D00AE1 /* SimpleDribbbleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF105E661B9B5DBA00D00AE1 /* Build configuration list for PBXNativeTarget "SimpleDribbbleUITests" */;
-			buildPhases = (
-				AF105E531B9B5DBA00D00AE1 /* Sources */,
-				AF105E541B9B5DBA00D00AE1 /* Frameworks */,
-				AF105E551B9B5DBA00D00AE1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AF105E591B9B5DBA00D00AE1 /* PBXTargetDependency */,
-			);
-			name = SimpleDribbbleUITests;
-			productName = SimpleDribbbleUITests;
-			productReference = AF105E571B9B5DBA00D00AE1 /* SimpleDribbbleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -434,14 +363,6 @@
 				TargetAttributes = {
 					AF105E321B9B5DBA00D00AE1 = {
 						CreatedOnToolsVersion = 7.0;
-					};
-					AF105E4B1B9B5DBA00D00AE1 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = AF105E321B9B5DBA00D00AE1;
-					};
-					AF105E561B9B5DBA00D00AE1 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = AF105E321B9B5DBA00D00AE1;
 					};
 				};
 			};
@@ -459,8 +380,6 @@
 			projectRoot = "";
 			targets = (
 				AF105E321B9B5DBA00D00AE1 /* SimpleDribbble */,
-				AF105E4B1B9B5DBA00D00AE1 /* SimpleDribbbleTests */,
-				AF105E561B9B5DBA00D00AE1 /* SimpleDribbbleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -479,20 +398,6 @@
 				AF105E971B9B614400D00AE1 /* ShotDescriptionTableViewCell.xib in Resources */,
 				AF105E921B9B614400D00AE1 /* PullToRefreshView.xib in Resources */,
 				AF105E8E1B9B614400D00AE1 /* NoMoreUpdatesView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF105E4A1B9B5DBA00D00AE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF105E551B9B5DBA00D00AE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,34 +460,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF105E481B9B5DBA00D00AE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AF105E531B9B5DBA00D00AE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AF105E4E1B9B5DBA00D00AE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF105E321B9B5DBA00D00AE1 /* SimpleDribbble */;
-			targetProxy = AF105E4D1B9B5DBA00D00AE1 /* PBXContainerItemProxy */;
-		};
-		AF105E591B9B5DBA00D00AE1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF105E321B9B5DBA00D00AE1 /* SimpleDribbble */;
-			targetProxy = AF105E581B9B5DBA00D00AE1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AF105E3F1B9B5DBA00D00AE1 /* Main.storyboard */ = {
@@ -704,54 +582,6 @@
 			};
 			name = Release;
 		};
-		AF105E641B9B5DBA00D00AE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SimpleDribbbleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rossener.SimpleDribbbleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDribbble.app/SimpleDribbble";
-			};
-			name = Debug;
-		};
-		AF105E651B9B5DBA00D00AE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SimpleDribbbleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rossener.SimpleDribbbleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDribbble.app/SimpleDribbble";
-			};
-			name = Release;
-		};
-		AF105E671B9B5DBA00D00AE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SimpleDribbbleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rossener.SimpleDribbbleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SimpleDribbble;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		AF105E681B9B5DBA00D00AE1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SimpleDribbbleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rossener.SimpleDribbbleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SimpleDribbble;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,24 +599,6 @@
 			buildConfigurations = (
 				AF105E611B9B5DBA00D00AE1 /* Debug */,
 				AF105E621B9B5DBA00D00AE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF105E631B9B5DBA00D00AE1 /* Build configuration list for PBXNativeTarget "SimpleDribbbleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF105E641B9B5DBA00D00AE1 /* Debug */,
-				AF105E651B9B5DBA00D00AE1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF105E661B9B5DBA00D00AE1 /* Build configuration list for PBXNativeTarget "SimpleDribbbleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF105E671B9B5DBA00D00AE1 /* Debug */,
-				AF105E681B9B5DBA00D00AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
